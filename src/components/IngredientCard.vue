@@ -44,7 +44,7 @@
               },
             description:{
             type:String,
-          }
+          },
             tags:{
             type:Array,
             },
