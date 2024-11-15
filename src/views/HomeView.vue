@@ -4,17 +4,20 @@
             <template #main>
                 <article class="w-full overflow-hidden lg:flex lg:items-center ">
             <div
-              class="flex flex-col items-center pt-2 lg:items-center lg:flex lg:justify-around lg:w-1/3 lg:w lg:h-screen rounded-bl-md rounded-br-md lg:py-11 ">
+              class="flex flex-col items-center pt-2 lg:items-center lg:flex lg:justify-around lg:w-1/3 lg:w lg:h-screen rounded-bl-md rounded-br-md lg:py-11 bg-gradient-to-l from-cyan-50 to-sky-100 ">
               <h2 class="hidden text-3xl font-extrabold text-center text-cyan-600 font-poppins animate-fade-down lg:block">
                 Alivio natural con CIDNI para la gastritis </h2>
               <h1 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-down">
                 <span class="text-cyan-600 ">Su escudo natural contra el reflujo</span>
               </h1>
-              <h1 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-down">
-                <span class="text-emerald-500 ">Medicina ayurvédica con origen en la India</span>
-              </h1>
+              <div class="flex items-center">
+      <h2 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-up">
+        <span class="text-white bg-cyan-700 font-varela">Medicina ayurvédica con origen milenario en la India.</span>
+      </h2>
+      <img class="w-36" src="https://i.ibb.co/VqZ4mch/saint-Indian-removebg-preview.png" alt="">
+    </div>
               <a href="#cidni"
-                class="p-1 my-3 font-bold rounded-md bg-cyantext-cyan-600 lg:rounded-lg lg:text-xl lg:p-2 text-cyan-600 font-poppins animate-bounce">Conozca
+                class="p-1 my-3 font-bold text-white rounded-md bg-cyantext-cyan-600 lg:rounded-lg lg:text-xl lg:p-2 bg-cyan-600 font-poppins animate-bounce">Conozca
                 más</a>
             </div>
             <img src="../assets/mainImg.jpg" class="lg:w-2/3 animate-fade-up lg:h-screen" alt="">
@@ -52,7 +55,7 @@
                 class="relative flex items-center justify-center w-1/2 p-4 border-2 rounded-lg shadow-md border-slate-400 bg-slate-100">
                 <span
                   class="absolute px-2 py-1 text-sm font-semibold text-white rounded -top-4 left-4 bg-slate-500">Anuncio</span>
-                <a href="https://shykandev.github.io/medicinaparadiabetes/" class="relative w-full h-full" target="_blank"
+                <a href="https://shykandev.github.io/medicinaparahigado/" class="relative w-full h-full" target="_blank"
                   rel="noopener noreferrer">
                   <div
                     class="absolute flex flex-col items-center w-full h-full transition-opacity duration-300 ease-out bg-black opacity-0 hover:opacity-70 justify-evenly">
@@ -71,7 +74,7 @@
                 class="relative flex items-center justify-center w-1/2 p-4 border-2 rounded-lg shadow-md border-slate-400 bg-slate-100">
                 <span
                   class="absolute px-2 py-1 text-sm font-semibold text-white rounded -top-4 left-4 bg-slate-500">Anuncio</span>
-                <a href="https://www.prasadam.mx/typography.html" class="relative w-full h-full" target="_blank"
+                <a href="https://shykandev.github.io/medicinaparadiabetes/" class="relative w-full h-full" target="_blank"
                   rel="noopener noreferrer">
                   <div
                     class="absolute flex flex-col items-center w-full h-full transition-opacity duration-300 ease-out bg-black opacity-0 hover:opacity-70 justify-evenly">

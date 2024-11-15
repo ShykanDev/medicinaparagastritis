@@ -15,14 +15,7 @@
                             </p>
                         </div>
 
-                        <!-- Pregunta 2 -->
-                        <div class="pb-4 border-b border-gray-300">
-                            <h3 class="text-lg font-semibold text-gray-700">¿CIDNI puede curar la gastritis?</h3>
-                            <p class="text-gray-600">
-                                CIDNI no es un medicamento y no cura la gastritis, pero contribuye a mejorar los
-                                síntomas al proteger la mucosa gástrica y reducir el malestar.
-                            </p>
-                        </div>
+
 
                         <!-- Pregunta 3 -->
                         <div class="pb-4 border-b border-gray-300">

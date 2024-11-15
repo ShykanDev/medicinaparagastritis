@@ -3,12 +3,12 @@
         <MainLayout >
             <template #main>
                 <h1 class="text-3xl font-extrabold text-center text-white md:py-7 bg-cyan-600 font-poppins">Conozca los ingredientes naturales de CIDNI</h1>
-                <div class="grid grid-cols-3">
+            <div class="grid grid-cols-3">
                 <img class="animate-flip-up" src="../assets/front.png" alt="">
                 <img class="animate-flip-up" src="../assets/syrup.png" alt="">
                 <img class="animate-flip-up" src="../assets/frontRight.png" alt="">
-              </div>
-                <section class="flex flex-wrap justify-between gap-5 p-4 font-poppins">
+            </div>
+            <section class="flex flex-wrap justify-between gap-5 p-4 font-poppins">
   <div class="flex-1 sm:flex-1 md:flex-1 lg:w-1/2">
     <h3 class="mb-4 text-xl font-semibold">Características del Producto</h3>
     <ul class="p-0 list-none">
@@ -35,7 +35,7 @@
 </ul>
 
   </div>
-</section>
+            </section>
             <section class="flex flex-wrap justify-around gap-4 p-4 animate-fade-up">
                 <IngredientCard v-for="ingredient in ingredients" :key="ingredient.title" :title="ingredient.title" :smallIntro="ingredient.shortResume" :description="ingredient.longResume" :tags="ingredient.listTitles" :listTitles="ingredient.listTitles" :listContent="ingredient.listContent" :imgSrc="ingredient.imgSrc" />
             </section>
