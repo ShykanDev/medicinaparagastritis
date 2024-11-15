@@ -50,7 +50,7 @@
             },
             imgSrc:{
               type:String,
-            } 
+            } ,
             listTitles: {
               type:Array,
             },
