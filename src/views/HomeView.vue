@@ -4,9 +4,13 @@
             <template #main>
                 <article class="w-full overflow-hidden lg:flex lg:items-center ">
             <div
-              class="flex flex-col items-center pt-2 lg:items-center lg:flex lg:justify-around lg:w-1/3 lg:w lg:h-screen rounded-bl-md rounded-br-md lg:py-11 bg-gradient-to-l from-cyan-50 to-sky-100 ">
-              <h2 class="hidden text-3xl font-extrabold text-center text-cyan-600 font-poppins animate-fade-down lg:block">
-                Alivio natural con CIDNI para la gastritis </h2>
+              class="flex flex-col items-center pt-2 md:flex-col lg:items-center lg:flex lg:justify-around lg:w-1/3 lg:w lg:h-screen rounded-bl-md rounded-br-md lg:py-11 bg-gradient-to-l from-cyan-50 to-sky-100 ">
+              <h2 class="text-3xl font-extrabold text-center text-cyan-600 font-poppins animate-fade-down lg:block">
+                Alivio natural con CIDNI para la
+                <strong class="px-1 text-white rounded-sm bg-cyan-600">
+                  GASTRITIS 
+                </strong>
+                </h2>
               <h1 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-down">
                 <span class="text-cyan-600 ">Su escudo natural contra el reflujo</span>
               </h1>
