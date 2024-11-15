@@ -2,30 +2,38 @@
     <div class="">
         <MainLayout>
             <template #main>
-                <article class="w-full overflow-hidden lg:flex lg:items-center ">
-            <div
-              class="flex flex-col items-center pt-2 md:flex-col lg:items-center lg:flex lg:justify-around lg:w-1/3 lg:w lg:h-screen rounded-bl-md rounded-br-md lg:py-11 bg-gradient-to-l from-cyan-50 to-sky-100 ">
-              <h2 class="text-3xl font-extrabold text-center text-cyan-600 font-poppins animate-fade-down lg:block">
-                Alivio natural con CIDNI para la
-                <strong class="px-1 text-white rounded-sm bg-cyan-600">
-                  GASTRITIS 
-                </strong>
-                </h2>
-              <h1 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-down">
-                <span class="text-cyan-600 ">Su escudo natural contra el reflujo</span>
-              </h1>
-              <div class="flex items-center">
+              <article class="w-full overflow-hidden lg:flex lg:items-center">
+  <!-- Imagen principal (se muestra primero en pantallas pequeñas) -->
+  <img 
+    src="../assets/mainImg.jpg" 
+    class="w-full animate-fade-up lg:w-2/3 lg:h-screen lg:order-2" 
+    alt="Main Image">
+
+  <!-- Contenido de texto -->
+  <div
+    class="flex flex-col items-center pt-2 bg-gradient-to-l from-cyan-50 to-sky-100 rounded-bl-md rounded-br-md md:flex-col lg:items-center lg:flex lg:justify-around lg:w-1/3 lg:h-screen lg:py-11 lg:order-1">
+    <h2 class="text-3xl font-extrabold text-center text-cyan-600 font-poppins animate-fade-down lg:block">
+      Alivio natural con CIDNI para la
+      <strong class="px-1 text-white rounded-sm bg-cyan-600">
+        GASTRITIS 
+      </strong>
+    </h2>
+    <h1 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-down">
+      <span class="text-cyan-600">Su escudo natural contra el reflujo</span>
+    </h1>
+    <div class="flex items-center">
       <h2 class="text-xl font-extrabold text-center text-gray-800 lg:text-3xl font-poppins animate-fade-up">
         <span class="text-white bg-cyan-700 font-varela">Medicina ayurvédica con origen milenario en la India.</span>
       </h2>
-      <img class="w-36" src="https://i.ibb.co/VqZ4mch/saint-Indian-removebg-preview.png" alt="">
+      <img class="w-36" src="https://i.ibb.co/VqZ4mch/saint-Indian-removebg-preview.png" alt="Icon Image">
     </div>
-              <a href="#cidni"
-                class="p-1 my-3 font-bold text-white rounded-md bg-cyantext-cyan-600 lg:rounded-lg lg:text-xl lg:p-2 bg-cyan-600 font-poppins animate-bounce">Conozca
-                más</a>
-            </div>
-            <img src="../assets/mainImg.jpg" class="lg:w-2/3 animate-fade-up lg:h-screen" alt="">
-          </article>
+    <a href="#cidni"
+      class="p-1 my-3 font-bold text-white rounded-md bg-cyantext-cyan-600 lg:rounded-lg lg:text-xl lg:p-2 bg-cyan-600 font-poppins animate-bounce">
+      Conozca más
+    </a>
+  </div>
+</article>
+
                 <section  id="cidni" class="space-y-20 overflow-hidden">
                     <CardInfoSm class="" img-center="https://plus.unsplash.com/premium_photo-1693266635481-37de41003239?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGVyYnN8ZW58MHx8MHx8fDA%3D" :title="info1.title" :description="info1.content" :description2="info1.content2"/>
                     <CardInfoSm data-aos="fade-right" class="" img-center="https://plus.unsplash.com/premium_photo-1722658473477-0c8ab1b79acf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZXN0b21hZ298ZW58MHx8MHx8fDA%3D" :title="info2.title" :description="info2.content" :description2="info2.content2"/>
