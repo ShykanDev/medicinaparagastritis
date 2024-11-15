@@ -53,9 +53,11 @@
             } ,
             listTitles: {
               type:Array,
+              default: () => []
             },
             listContent:{
               type:Array,
+              default: () => []
             }
     })
     </script>
